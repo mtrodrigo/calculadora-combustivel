@@ -36,10 +36,6 @@ To run this project, you need to install Vite. Follow the steps below:
 - HTML
 - CSS
 
-## Contato
-- [WhatsApp](https://wa.me/35984061841)
-- [LinkedIn](https://www.linkedin.com/in/rodrigo-marques-tavares-9482b4226/)
-
 ## Contact
 - [WhatsApp](https://wa.me/35984061841)
 - [LinkedIn](https://www.linkedin.com/in/rodrigo-marques-tavares-9482b4226/)
@@ -48,15 +44,6 @@ To run this project, you need to install Vite. Follow the steps below:
 ```mermaid
 pie
   title Linguagens Utilizadas
-  "JavaScript": 60
-  "HTML": 20
-  "CSS": 20
-```
-
-## Languages Used Chart
-```mermaid
-pie
-  title Languages Used
   "JavaScript": 60
   "HTML": 20
   "CSS": 20
