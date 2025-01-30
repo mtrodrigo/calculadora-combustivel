@@ -1,50 +1,45 @@
-# React + TypeScript + Vite
+# Calculadora de Combustível
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Descrição
+Este projeto é uma calculadora de combustível desenvolvida em React. Ele permite que os usuários calculem se vale a pena usar álcool ou gasolina.
 
-Currently, two official plugins are available:
+## Description
+This project is a fuel calculator developed in React. It allows users to calculate whether it is worth using alcohol or gasoline.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tecnologias Utilizadas
+- React
+- TypeScript
+- HTML
+- CSS
 
-## Expanding the ESLint configuration
+## Technologies Used
+- React
+- TypeScript
+- HTML
+- CSS
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Contato
+- [WhatsApp](https://wa.me/35984061841)
+- [LinkedIn](https://www.linkedin.com/in/rodrigo-marques-tavares-9482b4226/)
 
-- Configure the top-level `parserOptions` property like this:
+## Contact
+- [WhatsApp](https://wa.me/35984061841)
+- [LinkedIn](https://www.linkedin.com/in/rodrigo-marques-tavares-9482b4226/)
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+## Gráfico de Linguagens Utilizadas
+```mermaid
+pie
+  title Linguagens Utilizadas
+  "JavaScript": 60
+  "HTML": 20
+  "CSS": 20
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+## Languages Used Chart
+```mermaid
+pie
+  title Languages Used
+  "JavaScript": 60
+  "HTML": 20
+  "CSS": 20
 ```

@@ -6,7 +6,7 @@
   justify-content: center;
 }
 .container{
-  height: 60vh;
+  height: 80vh;
   border-radius: 20px;
   display: flex;
   flex-direction: column;
@@ -32,6 +32,10 @@
   padding: 10px 20px;
   background-color: #ccc;
   border-radius: 5px;
+}
+.resultado_container h3{
+  text-align: center;
+  padding: 5px 0;
 }
 @media (max-width: 450px) {
   .container h1, h3{
